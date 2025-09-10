@@ -12,13 +12,18 @@ display: flex;
 justify-content: center;
 align-items: center;
 min-width: 100vh;
-background-color: rgb(156, 255, 189);
+background: url('img.jpm') no-repeat;
+background-size: cover;
+background-position: center;
 }
 
 .wrapper {
     width: 420px;
-    background: rgb(255, 253, 114);
+    background: transparent;
+    border: 2px 
     color:black;
+    border-radius: 10px;
+    padding: 30px 40px;
 }
 
 .wrapper h1{
@@ -97,6 +102,17 @@ padding: 20px 45px 20px 20px;
 
     .remember-forgot register-link{
     font-size: 14.5px
-     text-align: center;
+    text-align: center;
+    margin: 20px 0 15px;
 
+    }
+
+    .register-link p a {
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+    }
+
+    .register-link p a:hover {
+     text-decoration: underline;
     }
